@@ -1,24 +1,60 @@
+body{
+    margin: 10px 100px;
+}
+/* <----------------heading part begins----------->*/
+.heading-section{
+    display: flex;
+    
+}
+.heading-section-logo{
+    display: flex;
+    justify-content: left;
+}
+.heading-section-text{
+    margin-top: 25px;
+}
+/* <------------heading part ends--------------> */
+
+/* <-----------navbar begins---------------> */
 .btn1{
     background-color: #70a970;
     color: white;
     border: #70a970;
     border-radius: 5px;
+
 }
 .btn2{
     background-color: #70a970;
     color: white;
     border: #70a970;
     border-radius: 5px;
+ 
 }
 .btn3{
     background-color: #70a970;
     color: white;
     border: #70a970;
     border-radius: 5px;
+    
 }
 .btn4{
     background-color: #70a970;
     color: white;
     border: #70a970;
     border-radius: 5px;
+    
+}
+/* <-----------navbar ends---------------> */
+/* <--------------Introduction for home begins----------> */
+.Inrto-home-section{
+    display: flex;
+
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.Intro-home-section-text{
+    margin: 0px 10px; 
+}
+.Intro-home-section-text p{
+    font-size: large;
 }
