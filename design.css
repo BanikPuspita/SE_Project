@@ -1,6 +1,6 @@
-body{
-    margin: 40px 100px;
-    padding: 20px;
+*{
+    margin: 10px 15px;
+   
 }
 /* <----------------heading part begins----------->*/
 .heading-section{
@@ -98,7 +98,8 @@ form button{
     margin-top: 15px;
 }
 .Intro-home-section-text{
-    margin: 0px 10px; 
+    margin: 0px 10px;
+    text-align: justify; 
 }
 .Intro-home-section-text p{
     font-size: large;
