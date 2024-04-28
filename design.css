@@ -55,6 +55,35 @@ body{
 .button-div button h{
     font-size: large;
 }
+.container{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+form{
+    background: #fff;
+    width: 400px;
+    height: 40px;
+    display: flex;
+}
+form input{
+    flex: 1;
+    border: 2px solid orange;
+    border-radius: 55px;
+    outline: none;
+}
+form button{
+    background: orange;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 55px;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
 .navbar{
     justify-content: right;
     al
